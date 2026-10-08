@@ -1,0 +1,8 @@
+{
+  "name": "dicewars-booking-app",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Dicewars Friday table booking MVP",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}

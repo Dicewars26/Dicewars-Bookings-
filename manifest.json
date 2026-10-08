@@ -1,0 +1,9 @@
+{
+  "name":"Dicewars Friday Table Booking",
+  "short_name":"Dicewars",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#07081b",
+  "theme_color":"#090a22",
+  "icons":[]
+}
