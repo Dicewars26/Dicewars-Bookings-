@@ -10,11 +10,11 @@ const rate = new Map();
 const DATA_DIR = path.join(__dirname, 'data');
 const DATA_FILE = path.join(DATA_DIR, 'bookings.json');
 const PUBLIC_DIR = __dirname;
-const SLOT_MINUTES = 60;
+const SLOT_MINUTES = 270;
 const OPEN_MINUTES = 16 * 60;
 const CLOSE_MINUTES = 20 * 60 + 30;
 const TABLES = Array.from({ length: 8 }, (_, i) => ({ id: `T${i + 1}`, name: `Table ${i + 1}`, capacity: 2 }));
-const TIMES = [16 * 60, 17 * 60, 18 * 60, 19 * 60, 20 * 60].filter(m => m + SLOT_MINUTES <= CLOSE_MINUTES);
+const TIMES = [16 * 60;]
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
 if (!fs.existsSync(DATA_FILE)) fs.writeFileSync(DATA_FILE, '[]');
